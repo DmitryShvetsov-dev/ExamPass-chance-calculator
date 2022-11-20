@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  background-image: url(./images/background);
+  background-size: cover;
+}
+
+.flex {
+  display: flex;
+}
+.leftside {
+  height: 800px;
+  width: 900px;
+}
+.rightside {
+  height: 800px;
+  width: 700px;
+  margin-left: 150px;
+  margin-top: 90px;
+}
+.answerBox {
+  height: 90px;
+  width: 90px;
+  background-color: #e4ccff;
+  border-radius: 10px;
+  transform: rotate(45deg);
+  margin-left: 40px;
+  margin-top: 220px;
+}
+.questions {
+  color: white;
+  font-size: 40px;
+}
+.inputField {
+  margin-top: 35px;
+  margin-left: 20px;
+  height: 50px;
+  width: 100px;
+  font-size: 40px;
+  border-radius: 10px;
+  border: 5px solid black;
+}
+
+#inputWithMargin {
+  margin-left: 160px;
+}
+#of {
+  margin-left: 20px;
+}
+#mainName {
+  color: black;
+  font-size: 60px;
+  margin-left: 270px;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+#textOfChance {
+  margin-top: 0;
+  font-size: 150px;
+  color: white;
+  margin-left: 270px;
+}
+
+#answer {
+  transform: rotate(-45deg);
+  margin: 0;
+  font-size: 50px;
+  margin-left: 25px;
+}
+#countButton {
+  height: 100px;
+  width: 600px;
+  background-color: #aff4c6;
+  font-size: 80px;
+  border: 0px solid;
+  border-radius: 20px;
+}

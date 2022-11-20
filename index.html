@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exam Chance</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <script src="./script.js"></script>
+    <div class="flex">
+      <div class="leftside">
+        <div class="name"><p id="mainName">PassExam</p></div>
+        <div class="flex">
+          <div class="chanceOfPass">
+            <p id="textOfChance">
+              pass <br />
+              chance=
+            </p>
+          </div>
+          <div class="answerBox"><p id="answer">?</p></div>
+        </div>
+      </div>
+      <div class="rightside">
+        <div class="flex">
+          <div class="howMuchQuestionsDiv">
+            <p class="questions">HOW MUCH QUESTIONS?</p>
+          </div>
+          <div><input type="number" class="inputField" id="HMQ" /></div>
+        </div>
+        <div class="flex">
+          <div class="howMuchUKnowDiv">
+            <p class="questions">HOW MUCH YOU KNOW?</p>
+          </div>
+          <div><input type="number" class="inputField" id="HMUK" /></div>
+        </div>
+        <div class="howMuchUNeedDiv">
+          <p class="questions">HOW MUCH YOU NEED TO PASS?</p>
+        </div>
+        <div class="flex">
+          <div>
+            <input type="number" class="inputField" id="inputWithMargin" />
+          </div>
+          <div>
+            <p class="questions" id="of">OF</p>
+          </div>
+          <div><input type="number" class="inputField" id="ofInput" /></div>
+        </div>
+        <button id="countButton" onclick="count()">COUNT!</button>
+      </div>
+    </div>
+  </body>
+</html>
